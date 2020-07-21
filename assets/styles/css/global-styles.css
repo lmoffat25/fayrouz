@@ -66,6 +66,7 @@ section {
     justify-content: space-between; }
     #main-nav > div img {
       height: 150%;
+      width: auto;
       margin-top: 1rem; }
   #main-nav ul {
     align-items: center; }
@@ -161,6 +162,7 @@ section {
   background-position: right 5rem center;
   background-repeat: no-repeat; }
   .home header #bio img {
+    width: auto;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1); }
 

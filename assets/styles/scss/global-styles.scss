@@ -82,6 +82,7 @@ section {
 
     img {
       height: 150%;
+      width: auto;
       margin-top: 1rem;
     }
   }
@@ -205,6 +206,7 @@ section {
   background-repeat: no-repeat;
   #bio {
     img {
+      width: auto;
       -webkit-transform: scaleX(-1);
       transform: scaleX(-1);
     }
