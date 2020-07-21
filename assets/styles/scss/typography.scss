@@ -1,0 +1,39 @@
+/*
+  VARIABLES
+*/
+$black: black;
+$white: white;
+$gold: #DEC792;
+$gray: #7D818A;
+
+p, span, a, li {
+  color: $black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  :hover {
+    color: $black;
+  }
+}
+h1, h2, h3, h4 {
+  color: $black;
+  font-family: 'Tangerine', cursive;
+  font-size: 6rem;
+  line-height: 4.5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+
+nav a {
+  font-family: 'Tangerine', cursive;
+  color: $white;
+  font-size: 1.5rem;
+}
+#gallery {
+  >div:nth-child(1) {
+    p, span {
+      font-family: "playfair-display", serif;
+    }
+  }
+
+}
