@@ -11,7 +11,7 @@ $gray: #7D818A;
   display: -ms-flex;
   display: flex;
   flex-flow:row;
-  justify-content: center;
+  // justify-content: center;
   &.wrap {
     flex-flow: row wrap;
     &.rev {
@@ -32,6 +32,9 @@ $gray: #7D818A;
 .aic {
   align-items: center;
 }
+.aie {
+  align-items: flex-end;
+}
 .jcsa {
   justify-content: space-around;
 }
@@ -39,6 +42,12 @@ $gray: #7D818A;
   justify-content: center;
 }
 
+.vh-20 {
+  height: 20vh;
+}
+.vh-30 {
+  min-height: 30vh
+}
 .vh-50 {
   min-height: 50vh;
 }
@@ -51,6 +60,14 @@ $gray: #7D818A;
   top:0;
   z-index: 2;
 }
+
+.biography {
+  header {
+    height: 100vh;
+  }
+}
+
+
 
 
 @media screen and (max-width:768px) {
@@ -65,6 +82,13 @@ $gray: #7D818A;
     #bio {
       >div:first-of-type {
         justify-content: center;
+      }
+    }
+    #gallery {
+      .pres_photo {
+        &:nth-child(2) {
+          margin: 1rem auto;
+        }
       }
     }
   }

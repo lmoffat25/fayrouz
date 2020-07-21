@@ -212,6 +212,17 @@ section {
   #contact-cta #collage img {
     width: 75%; }
 
+.card {
+  margin: .5rem;
+  border: 2px solid #676C78;
+  box-shadow: 3px 3px 6px lightgrey;
+  border-radius: 15px;
+  padding: 0 15px; }
+  .card img {
+    height: auto;
+    width: 100%;
+    border-radius: 15px; }
+
 footer {
   height: 20vh;
   background-color: #fff; }
@@ -226,7 +237,9 @@ footer {
       position: absolute;
       right: -80px;
       top: 50%;
-      transform: translateY(-50%); } }
+      transform: translateY(-50%); }
+  .card {
+    max-width: 30%; } }
 
 @media screen and (max-width: 992px) {
   #contact-cta {

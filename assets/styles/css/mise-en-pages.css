@@ -5,8 +5,7 @@
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  flex-flow: row;
-  justify-content: center; }
+  flex-flow: row; }
   .ligne.wrap {
     flex-flow: row wrap; }
     .ligne.wrap.rev {
@@ -23,11 +22,20 @@
 .aic {
   align-items: center; }
 
+.aie {
+  align-items: flex-end; }
+
 .jcsa {
   justify-content: space-around; }
 
 .jcc {
   justify-content: center; }
+
+.vh-20 {
+  height: 20vh; }
+
+.vh-30 {
+  min-height: 30vh; }
 
 .vh-50 {
   min-height: 50vh; }
@@ -40,6 +48,9 @@
   top: 0;
   z-index: 2; }
 
+.biography header {
+  height: 100vh; }
+
 @media screen and (max-width: 768px) {
   .button {
     margin-left: 50%;
@@ -47,4 +58,6 @@
 
 @media screen and (max-width: 998px) {
   .home #bio > div:first-of-type {
-    justify-content: center; } }
+    justify-content: center; }
+  .home #gallery .pres_photo:nth-child(2) {
+    margin: 1rem auto; } }
