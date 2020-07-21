@@ -164,6 +164,7 @@ section {
 
 #bio img {
   width: 339px;
+  height: auto;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1); }
 
