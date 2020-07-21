@@ -204,12 +204,12 @@ section {
   background-size: 75%;
   background-position: right 5rem center ;
   background-repeat: no-repeat;
-  #bio {
-    img {
-      width: 339px;
-      -webkit-transform: scaleX(-1);
-      transform: scaleX(-1);
-    }
+}
+#bio {
+  img {
+    width: 339px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
   }
 }
 
