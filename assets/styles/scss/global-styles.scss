@@ -280,6 +280,18 @@ section {
   box-shadow: 3px 3px 6px lightgrey;
   border-radius: 15px;
   padding: 0 15px;
+  h2 {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translatex(-50%);
+      width: 75%;
+      border-bottom: 1px solid $black;
+    }
+  }
   img {
     height: auto;
     width: 100%;

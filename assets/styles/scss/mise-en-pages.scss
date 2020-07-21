@@ -67,6 +67,11 @@ $gray: #7D818A;
 .biography {
   header {
     min-height: 100vh;
+    >div:last-of-type {
+      img {
+        height: 
+      }
+    }
   }
 }
 
