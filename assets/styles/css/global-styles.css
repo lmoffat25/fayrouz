@@ -45,6 +45,10 @@ body {
 a, a:hover {
   text-decoration: none; }
 
+a:hover {
+  color: initial;
+}
+
 ul {
   margin: 0; }
   ul li {
@@ -64,6 +68,9 @@ section {
     display: flex;
     flex-flow: row;
     justify-content: space-between; }
+    #main-nav > div > a:hover {
+      color: white;
+    }
     #main-nav > div img {
       height: 150%;
       width: 94px;
@@ -159,7 +166,7 @@ section {
 .home header {
   background: url("../../media/photos/statue_and_so_what.jpg");
   background-size: 75%;
-  background-position: right 5rem center;
+  background-position: right 5rem bottom -3rem;
   background-repeat: no-repeat; }
 
 #bio img {
@@ -179,15 +186,7 @@ section {
     border-bottom: 1px solid white; }
 
 #gallery > div > div:last-of-type {
-  position: relative;
-  margin-top: 3rem;
   padding-top: 3rem; }
-  #gallery > div > div:last-of-type:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    border-top: 1px solid white;
-    width: 60%; }
   #gallery > div > div:last-of-type img {
     height: auto;
     width: 100%; }
@@ -208,6 +207,7 @@ section {
   color: white; }
 
 #contact-cta #collage {
+  padding-bottom: 2rem;
   text-align: center; }
   #contact-cta #collage img {
     width: 75%; }
@@ -229,13 +229,17 @@ section {
       width: 75%;
       border-bottom: 1px solid black; }
   .card img {
+    max-height: 300px;
+    max-width: 100%;
     height: auto;
-    width: 100%;
     border-radius: 15px; }
 
+.biography #intro img {
+  width: 100%;
+  height: 50%;}
+
 footer {
-  height: 20vh;
-  background-color: #fff; }
+  height: 20vh;}
 
 @media screen and (min-width: 992px) {
   h1 {

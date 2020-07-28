@@ -31,21 +31,44 @@
 .jcc {
   justify-content: center; }
 
+.jcsb {
+  justify-content: space-between;
+}
+.vh-10 {
+  height: 10vh;
+}
+
 .vh-20 {
   height: 20vh; }
 
 .vh-30 {
-  min-height: 30vh; }
+  height: 30vh; }
 
 .vh-50 {
-  min-height: 50vh; }
+  height: 50vh; }
 
 .vh-75 {
-  min-height: 75vh; }
+  height: 75vh; }
 
 .vh-100 {
   height: auto;
   min-height: 100vh !important; }
+
+  .mvh-10 {
+    min-height: 10vh;
+  }
+
+  .mvh-20 {
+    min-height: 20vh; }
+
+  .mvh-30 {
+    min-height: 30vh; }
+
+  .mvh-50 {
+    min-height: 50vh; }
+
+  .mvh-75 {
+    min-height: 75vh; }
 
 #main-nav {
   position: fixed;
@@ -53,7 +76,18 @@
   z-index: 2; }
 
 .biography header {
-  min-height: 100vh; }
+  min-height: 85vh; }
+  .biography #into {
+    margin-top: 2rem;
+  }
+
+  .gallery h1 {
+    text-align: center;
+  }
+
+footer {
+  margin-top: 3rem;
+}
 
 @media screen and (max-width: 768px) {
   .button {
